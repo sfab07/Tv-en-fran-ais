@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<playlist xmlns="http://xspf.org/ns/0/" xmlns:vlc="http://www.videolan.org/vlc/playlist/ns/0/" version="1">
+	<title>Liste de lecture</title>
+	<trackList>
+		<track>
+			<location>https://live.creacast.com/d5tv/smil:d5tv.smil/master.m3u8</location>
+			<title>D5</title>
+			<annotation>1920x1080</annotation>
+			<image>https://d5tv.fr/wp-content/uploads/2020/07/d5tv_carre.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>0</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge10.vedge.infomaniak.com/livecast/ik:lfmmd/chunklist_w618209807_b1600000.m3u8</location>
+			<title>Lfm</title>
+			<annotation>1280x720</annotation>
+			<image>https://www.lfmtv.ch/wp-content/uploads/2017/02/favicon.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>1</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://event.vedge.infomaniak.com/livecast/event.stream/playlist.m3u8</location>
+			<title>Rouge</title>
+			<annotation>1280x720</annotation>
+			<image>https://dy822md8ge77v.cloudfront.net/websites/favicon_20200618161100.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>2</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>https://edge6.vedge.infomaniak.com/livecast/ik:onefmmd/chunklist_w1104886801_b1600000.m3u8</location>
+			<title>One tv</title>
+			<annotation>1280x720</annotation>
+			<image>https://www.onetv.ch/wp-content/uploads/2017/02/logo_v04.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>3</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://play.acwstream.com:2002/live/acw_01/index.m3u8</location>
+			<title>Hirondelle</title>
+			<annotation>854x480</annotation>
+			<image>https://i1.wp.com/radiotelehirondelle.com/wp-content/uploads/2020/08/cropped-LOGO-RTVH-PNG-1-1.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>4</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://connectiktv.ddns.net:8080/topmovie/tracks-v1a1/mono.m3u8</location>
+			<title>Top Movies</title>
+			<annotation>1920x1080</annotation>
+			<image>http://connectik.tv/wp-content/uploads/2019/05/top_tv_movies.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>5</vlc:id>
+			</extension>
+		</track>
+		<track>
+			<location>http://connectiktv.ddns.net:5000/plextv/@plextv/chunklist_w2043284741.m3u8</location>
+			<title>Plex</title>
+			<annotation>854x480</annotation>
+			<image>http://connectik.tv/wp-content/uploads/2019/04/logo-plex-300x228.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>6</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>http://connectiktv.ddns.me:8080/mytv/tracks-v1a1/mono.m3u8</location>
+			<title>Mytv channel</title>
+			<annotation>854x480</annotation>
+			<image>http://connectik.tv/wp-content/uploads/2019/04/mytv-channel-hd-300x169.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>7</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://tvlakay.haitilive.net/public/telecaramel/tracks-v1a1/mono.m3u8</location>
+			<title>Caramel</title>
+			<annotation>854x480</annotation>
+			<image>https://caramelhaiti.net/wp-content/uploads/2020/08/Caramel-logo-1.jpg</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>8</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+		<track>
+			<location>https://play.haitibroadcasting.com/tva/30/live/tracks-v1a1/mono.m3u8</location>
+			<title>TVA30</title>
+			<annotation>1280x720</annotation>
+			<image>https://i1.wp.com/tva30.com/wp-content/uploads/2019/08/cropped-icon.png</image>
+			<extension application="http://www.videolan.org/vlc/playlist/0">
+				<vlc:id>9</vlc:id>
+				<vlc:option>network-caching=1000</vlc:option>
+			</extension>
+		</track>
+	</trackList>
+	<extension application="http://www.videolan.org/vlc/playlist/0">
+		<vlc:item tid="0"/>
+		<vlc:item tid="1"/>
+		<vlc:item tid="2"/>
+		<vlc:item tid="3"/>
+		<vlc:item tid="4"/>
+		<vlc:item tid="5"/>
+		<vlc:item tid="6"/>
+		<vlc:item tid="7"/>
+		<vlc:item tid="8"/>
+		<vlc:item tid="9"/>
+	</extension>
+</playlist>
