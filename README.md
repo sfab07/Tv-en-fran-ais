@@ -1,5 +1,5 @@
 # Tv-en-francais
-Quelques chaines Françaises Suisse et Haitienne
+Quelques chaines gratuites Françaises Suisse et Haitienne
 
 Possibilité de regarder sur :
 - PC via VLC
